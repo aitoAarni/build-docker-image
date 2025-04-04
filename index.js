@@ -1,12 +1,12 @@
-const express = require('express')
+const express = require("express")
 const app = express()
 
-app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>')
+app.get("/", (req, res) => {
+    res.send("<h1>Hello to the globes</h1>")
 })
 
 const PORT = 8080
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
+    console.log(`Server running on port ${PORT}`)
 })
