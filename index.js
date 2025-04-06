@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 app.get("/", (req, res) => {
-    res.send("<h1>This is Spartaaaa!</h1>")
+    res.send("<h1>Hellooo wooorld!</h1>")
 })
 
 const PORT = 8080
